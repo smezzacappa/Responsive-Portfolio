@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Steven Mezzacappa</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="javascript/clock.js"></script>
+</head>
+
+<body onload="startTime()">
+
+  <div class="wrapper">
+
+    <header id="masthead">
+      <div class="container">
+        <a href="index.html" id="logo">Steven Mezzacappa</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html" id="navbtn">About</a>
+            </li>
+            <li>
+              <a href="portfolio.html" id="navbtn">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact.html" id="navbtn">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="main-section">
+        <h1>Contact</h1>
+
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit" id="submit">
+        </form>
+
+      </section>
+
+      <section class="sidebar">
+        <div id="connect">
+          <h2>Connect with Me</h2>
+
+          <ul>
+            <li>
+              <a href="https://www.github.com/smezzacappa">
+                <img src="assets/images/github.png" alt="" class="connect-photo1">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/steven-mezzacappa-a6a031107/">
+                <img src="assets/images/linkedin.png" alt="" class="connect-photo2">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/s_mezzacappa">
+                <img src="assets/images/twitter.png" alt="" class="connect-photo3">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="sidebar">
+          <div id="txt">
+          </div>
+  
+        </section>
+    </main>
+    <div class="push"></div>
+  </div>
+
+  <footer>
+    <div class="container" id="copyright">
+      &copy; Copyright Steven Mezzacappa
+    </div>
+  </footer>
+</body>
+
+</html>
